@@ -1,0 +1,4 @@
+Gender,Age,AnnualSalary,Predicted_Purchased,Predicted_Prob
+Male,35,20000,0,0.0
+Female,40,80000,1,0.57
+Male,55,120000,1,0.99
