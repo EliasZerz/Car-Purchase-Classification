@@ -22,7 +22,7 @@ from sklearn.metrics import (
 )
 
 # --- 1. Load and prepare ---
-df = pd.read_csv("Data/car_data.csv")
+df = pd.read_csv("Car-Purchase-Classification\Data\car_data.csv")
 df = df.drop(columns=["User ID"])
 X = df.drop(columns=["Purchased"])
 y = df["Purchased"]
